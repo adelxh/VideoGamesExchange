@@ -1,0 +1,100 @@
+.main-container {
+  padding: 20px;
+}
+.main-container h1 {
+  text-align: center;
+}
+.form-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+input {
+  margin: 4px;
+  padding: 5px;
+  height: 30px;
+  width: 100%;
+  background-color: #f1f1f1;
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+}
+button {
+  margin: 2px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1.5px solid #b8b8b8;
+  transition: 0.4s ease-in-out;
+  color: rgb(68, 68, 68);
+}
+button:hover {
+  border: 1.8px solid #919191;
+  color: black;
+}
+
+.history-container { 
+ 
+  padding: 20px;
+}
+.history-container h1, h3 {
+  text-align: center;
+}
+a {
+  display: flex;
+  justify-content: end;
+}
+
+.game {
+  display: flex;
+  
+  justify-content: center;
+  gap: 10px; /* Space between cards */
+  margin: 30px;
+  transition: 0.4s ease-in-out;
+  
+}
+.div-game {
+  background-color: #f0f0f0; 
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 3rem;
+
+  width: 200px; 
+
+  
+ 
+  
+}
+.description {
+  margin-top: 30px;
+}
+
+img {
+  width: 70px;
+  border-radius: 80%;
+  
+
+}
+
+
+/* media queries */
+@media screen and (max-width: 908px) {
+.game {
+  flex-wrap: wrap;
+}
+.div-game {
+  margin-top: 3rem;
+  width: calc(50% - 20px);
+}
+  
+}
