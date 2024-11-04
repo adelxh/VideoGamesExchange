@@ -15,6 +15,7 @@ Developed and designed a small web app allowing users to add their favourite vid
   * Game details should be then saved to local storage
 ### 4. Saved Games 
   * Games that were added should be visible on the Saved page of the web app
+  * Should also have a search field where a user can search games based on the name
 ### 5. Error handling 
   * User should NOT be able to upload a video game without entering ALL of the details about a specific video game
 
@@ -22,7 +23,12 @@ Developed and designed a small web app allowing users to add their favourite vid
 0.5 days 
 
 ## Design Principles
+* Design principles for this project were simple:
+   * make it look clean
+   * use neutral colors
+   * accessible font-sizes
+   * responsive design for all screen sizes such as: tablet, phone, large desktops 
 
 ## Future Features 
-
+* In the future, I plan to implement login authorization to enable personalized access, allowing each signed-in user to view games saved specifically to their profile.
 
